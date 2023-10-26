@@ -82,7 +82,7 @@ export default function Dashboard() {
         labels: labels.map((item) => item.label),
         datasets: [
           {
-            label: '# of Votes',
+            label: 'Emission en CO2',
             data: labels.map((item) => item.co2),
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)',
